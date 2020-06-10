@@ -174,3 +174,91 @@
 // f = +prompt("enter temp in Fahrenheit");
 // c = (f - 32)*5/9;
 // document.writeln("<br>"+f+" Fahrenheit is "+c+" in Celsius");
+
+// Task # 7
+
+// var product1 = 650;
+// var product2 = 100;
+// var shipping = 100;
+// var quantity1 = +prompt("enter quantity for product 1");
+// var quantity2 = +prompt("enter quantity for product 2");
+// var header = "Shopping Cart";
+// document.writeln(header.bold());
+// document.writeln("<br>" + "Price of product 1 is: "+product1+ "<br>" + "Quantity of product 1 is: "+quantity1);
+// document.writeln("<br>" + "Price of product 2 is: "+product2+ "<br>" + "Quantity of product 2 is: "+quantity2);
+// document.writeln("<br>"+"Shipping charges: "+shipping);
+// var total = (product1 * quantity1) + (product2 * quantity2) + shipping;
+// document.writeln("Your total is: "+total);
+
+// Task # 8
+
+// var marksheet = "Mark Sheet";
+// var TotalMarks = 980;
+// var MarksObtained = +prompt("Enter Obtained Marks");
+// var percentage = (MarksObtained / TotalMarks)*100;
+// document.writeln(marksheet.bold());
+// document.writeln("<br>"+"Total marks: "+TotalMarks+"<br>"+"Obtained marks: "+MarksObtained+"<br>"+"Your Percentage is: "+percentage+"%");
+
+// Task # 9
+
+// var USdollar = +prompt("Enter total US Dollars");
+// var riyal = +prompt("Enter total Saudi Riyals");
+// var DollarToPk = (USdollar * 104.80);
+// var RiyalToPk = (riyal * 28);
+// var pkr = (RiyalToPk + DollarToPk);
+// document.writeln("Total currency in PKR is: "+pkr);
+
+// Task # 10
+
+// var a = +prompt("enter a number");
+// var b = (a + 5 * 10 / 2);
+// document.writeln(b);
+
+// Task # 11
+
+// var currentYr = +prompt("Enter current year");
+// var birthYr = +prompt("Enter your birth year");
+// var age = (currentYr - birthYr);
+// document.writeln("AGE CALCULATOR"+"<br>"+"The current year is: "+currentYr+"<br>"+"Your Borth year is: "+birthYr+"<br>"+"Your age is: "+age);
+
+// Task # 12
+
+// var rad = +prompt("Enter Radius");
+// var circum = (2 * 3.142 * rad);
+// var area = (3.142 * rad * rad);
+// document.writeln("THE GEOMETRIZER" +"<br>"+"Radius is: "+rad+"<br>"+"Circumference is: "+circum+"<br>"+"Area is: "+area);
+
+// Task # 13
+
+// var snack = "Cheetos";
+// var age = +prompt("enter ur age");
+// var ApproxAge = 65;
+// var amount = +prompt("how many snacks do you eat in a day?");
+// var TotalSnacks = ((ApproxAge - age)*amount);
+// document.writeln("Favorite snack is "+snack+" and you'll need "+TotalSnacks+" "+snack+" for the rest of your life");
+
+/*--------------------------------------------------------------*/
+
+// CHAPTER # 6
+
+// Task # 1
+
+// var a = +prompt("Enter value");
+// document.writeln("The value is "+a);
+// ++a;
+// document.writeln("<br>"+"<br>"+"The val of ++a is "+a);
+// document.writeln("<br>"+"Now the val is "+a);
+// document.writeln("<br>"+"<br>"+"The val of a++ is "+a);
+// a++;
+// document.writeln("<br>"+"Now the val is "+a);
+// --a;
+// document.writeln("<br>"+"<br>"+"The val of --a is "+a);
+// document.writeln("<br>"+"Now the val is "+a);
+// document.writeln("<br>"+"<br>"+"The val of a-- is "+a);
+// a--;
+// document.writeln("<br>"+"Now the val is "+a);
+
+// Task # 2
+
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--;
